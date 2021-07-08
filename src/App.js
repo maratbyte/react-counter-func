@@ -9,12 +9,20 @@ const App = () => {
 
   const decrement = () => setCount(count - 1)
 
+  const style = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    height: '97vh',
+    justifyContent: 'center'
+  }
+
   return (
-    <div className='App'>
+    <div style={style}>
       <Counter count={count} />
       <div>
-        <Button text='+' action={increment} />
-        <Button text='-' action={decrement} />
+        <Button text='+' action={increment} colorDef='#fcba03' colorHov='#fc9003' />
+        <Button text='-' action={decrement} colorDef='#fcba03' colorHov='#fc9003' />
       </div>
     </div>
   )
