@@ -21,8 +21,8 @@ const App = () => {
     <div style={style}>
       <Counter count={count} />
       <div>
-        <Button text='+' action={increment} colorDef='#fcba03' colorHov='#fc9003' />
-        <Button text='-' action={decrement} colorDef='#fcba03' colorHov='#fc9003' />
+        <Button text='+' action={increment} colorDef='#4ab5ff' colorHov='#61beff' />
+        <Button text='-' action={decrement} colorDef='#4ab5ff' colorHov='#61beff' />
       </div>
     </div>
   )
